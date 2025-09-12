@@ -1,0 +1,56 @@
+name: AMA Bot Daily Scheduler
+
+on:
+  schedule:
+    # Ejecutar a las 3:00 PM GMT-5 (Peru time) = 8:00 PM UTC
+    # Cron format: minute hour day month weekday
+    - cron: '0 20 * * *'  # Todos los días a las 8:00 PM UTC (3:00 PM Peru)
+  
+  # Permitir ejecución manual para testing
+  workflow_dispatch:
+
+jobs:
+  send-messages:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas requests
+        
+    - name: Set timezone to Peru
+      run: |
+        sudo timedatectl set-timezone America/Lima
+        echo "Current time in Peru:"
+        date
+        
+    - name: Run AMA Bot Controller
+      env:
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+        BOTPRESS_TOKEN: ${{ secrets.BOTPRESS_TOKEN }}
+        BOT_ID: ${{ secrets.BOT_ID }}
+        PROGRESS_TABLE_NAME: ${{ secrets.PROGRESS_TABLE_NAME }}
+      run: |
+        echo "🚀 Iniciando envío automático..."
+        echo "Fecha y hora actual: $(date)"
+        python ama_bot_github_runner.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add control_envios.csv
+        git commit -m "📤 Envíos automáticos $(date +'%Y-%m-%d %H:%M')" || exit 0
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
