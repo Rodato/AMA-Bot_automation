@@ -43,14 +43,25 @@ jobs:
       run: |
         echo "🚀 Iniciando envío automático..."
         echo "Fecha y hora actual: $(date)"
+        echo "Archivos en directorio:"
+        ls -la
+        echo "Verificando variables de entorno:"
+        echo "WEBHOOK_URL exists: $([[ -n $WEBHOOK_URL ]] && echo 'YES' || echo 'NO')"
+        echo "Ejecutando script..."
         python ama_bot_github_runner.py
         
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add control_envios.csv
-        git commit -m "📤 Envíos automáticos $(date +'%Y-%m-%d %H:%M')" || exit 0
-        git push
+        git add control_envios.csv || true
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "📤 Envíos automáticos $(date +'%Y-%m-%d %H:%M')"
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
