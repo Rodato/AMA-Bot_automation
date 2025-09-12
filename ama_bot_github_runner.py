@@ -49,6 +49,18 @@ class AMABotGitHubRunner:
                 return False
                 
             self.df = pd.read_csv(self.csv_file, dtype={'numero': str})
+            
+            # Agregar nuevas columnas si no existen (compatibilidad con CSVs antiguos)
+            required_columns = {
+                'reenvios_consecutivos_fallidos': 0,  # Contador de reenvíos fallidos seguidos
+                'usuario_excluido': 0  # 1 = excluido permanentemente, 0 = activo
+            }
+            
+            for col, default_value in required_columns.items():
+                if col not in self.df.columns:
+                    self.df[col] = default_value
+                    self.log(f"➕ Columna agregada: {col}")
+            
             self.log(f"✅ CSV cargado: {len(self.df)} registros")
             return True
         except Exception as e:
@@ -143,19 +155,23 @@ class AMABotGitHubRunner:
     def can_send_message(self, numero, sesion, day, csv_row):
         """Verificar si se puede enviar mensaje"""
         
-        # Verificar límite de intentos
+        # Verificar si usuario está excluido permanentemente
+        if csv_row['usuario_excluido'] == 1:
+            return False, "Usuario excluido permanentemente"
+        
+        # Verificar límite de intentos por día
         if csv_row['intentos_envio'] >= 2:
-            return False, f"Límite intentos ({csv_row['intentos_envio']}/2)"
+            return False, f"Límite intentos diarios ({csv_row['intentos_envio']}/2)"
         
         # Si ya completó, no reenviar
         if csv_row['completado'] == 1:
             return False, "Ya completado"
         
-        # Sesión 1, Día 1 siempre se permite
+        # Sesión 1, Día 1 siempre se permite (primer contacto)
         if sesion == 1 and day == 1:
             return True, "Inicio campaña"
         
-        # Verificar prerrequisitos
+        # Verificar prerrequisitos en Botpress
         numero_str = str(numero)
         if numero_str not in self.botpress_data:
             return False, "Usuario no en Botpress"
@@ -168,6 +184,12 @@ class AMABotGitHubRunner:
         
         # Para días posteriores en sesión 1
         if sesion == 1 and day > 1:
+            # Si es un reenvío del mismo día (no completado)
+            current_day_status = str(session1_data.get(str(day), '0'))
+            if current_day_status == '1':  # Enviado pero no completado
+                return True, f"Reenvío día {day} (intento {csv_row['intentos_envio']+1}/2)"
+            
+            # Si es un día nuevo, verificar prerrequisito
             prev_day_status = str(session1_data.get(str(day - 1), '0'))
             if prev_day_status == '2':
                 return True, f"Día {day-1} completado"
@@ -179,6 +201,50 @@ class AMABotGitHubRunner:
             return False, "Sesiones >1 pendientes"
         
         return True, "Condiciones OK"
+    
+    def manejar_reenvios_fallidos(self):
+        """Manejar lógica de reenvíos consecutivos fallidos"""
+        self.log("🔄 Verificando reenvíos consecutivos fallidos...")
+        
+        usuarios_excluidos = 0
+        
+        # Procesar por usuario
+        for numero in self.df['numero'].unique():
+            registros_usuario = self.df[self.df['numero'] == numero].sort_values(['sesion', 'day'])
+            
+            reenvios_consecutivos = 0
+            usuario_debe_excluirse = False
+            
+            for index, registro in registros_usuario.iterrows():
+                # Solo procesar registros que han sido enviados
+                if registro['intentos_envio'] == 0:
+                    continue
+                
+                # Si completó este día, resetear contador
+                if registro['completado'] == 1:
+                    reenvios_consecutivos = 0
+                    self.df.at[index, 'reenvios_consecutivos_fallidos'] = 0
+                
+                # Si es un segundo intento (reenvío) y no completó
+                elif registro['intentos_envio'] == 2 and registro['completado'] == 0:
+                    reenvios_consecutivos += 1
+                    self.df.at[index, 'reenvios_consecutivos_fallidos'] = reenvios_consecutivos
+                    
+                    # Si llegó a 2 reenvíos fallidos consecutivos
+                    if reenvios_consecutivos >= 2:
+                        usuario_debe_excluirse = True
+                        self.log(f"   🚫 Usuario {numero} excluido tras 2 reenvíos fallidos")
+                        break
+            
+            # Excluir usuario si corresponde
+            if usuario_debe_excluirse:
+                self.df.loc[self.df['numero'] == numero, 'usuario_excluido'] = 1
+                usuarios_excluidos += 1
+        
+        if usuarios_excluidos > 0:
+            self.log(f"   🚫 {usuarios_excluidos} usuarios excluidos permanentemente")
+        else:
+            self.log(f"   ✅ No hay usuarios para excluir")
     
     def enviar_mensaje(self, numero, sesion, day):
         """Enviar mensaje via webhook"""
@@ -214,14 +280,25 @@ class AMABotGitHubRunner:
             self.log("⚠️ No se pudieron actualizar datos de Botpress")
             # Continuar sin datos de Botpress
         
-        # 3. Filtrar pendientes
-        pendientes = self.df[self.df['enviado'] == 0]
+        # 3. Filtrar registros pendientes (incluir reenvíos, excluir usuarios eliminados)
+        condicion_pendientes = (
+            (self.df['usuario_excluido'] == 0) &  # No excluidos
+            (
+                (self.df['enviado'] == 0) |  # Nunca enviados
+                (
+                    (self.df['enviado'] == 1) &  # Ya enviados pero...
+                    (self.df['completado'] == 0) &  # No completados y...
+                    (self.df['intentos_envio'] < 2)  # Con menos de 2 intentos por día
+                )
+            )
+        )
+        pendientes = self.df[condicion_pendientes]
         
         if len(pendientes) == 0:
-            self.log("✅ No hay envíos pendientes")
+            self.log("✅ No hay envíos pendientes (incluidos reenvíos)")
             return True
         
-        self.log(f"📤 Procesando {len(pendientes)} registros pendientes...")
+        self.log(f"📤 Procesando {len(pendientes)} registros pendientes (incluidos reenvíos)...")
         
         exitosos = 0
         fallidos = 0
@@ -279,9 +356,13 @@ class AMABotGitHubRunner:
             self.log("❌ Error guardando datos")
             return False
         
-        # 6. Actualizar datos post-envío
+        # 6. Actualizar datos post-envío y manejar reenvíos consecutivos
         self.log("🔄 Actualizando progreso post-envío...")
         self.refresh_botpress_data()
+        
+        # 7. Verificar reenvíos consecutivos fallidos y excluir usuarios
+        self.manejar_reenvios_fallidos()
+        
         self.save_data()
         
         # 7. Reporte final
