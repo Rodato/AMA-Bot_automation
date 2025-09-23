@@ -2,9 +2,9 @@ name: AMA Bot Daily Scheduler
 
 on:
   schedule:
-    # Ejecutar a las 9:00 AM Colombia (GMT-5) = 2:00 PM UTC
+    # Ejecutar a las 4:00 PM Colombia (GMT-5) = 9:00 PM UTC
     # Cron format: minute hour day month weekday
-    - cron: '0 14 * * *'  # Todos los días a las 2:00 PM UTC (9:00 AM Colombia)
+    - cron: '0 21 * * *'  # Todos los días a las 9:00 PM UTC (4:00 PM Colombia)
   
   # Permitir ejecución manual para testing
   workflow_dispatch:
