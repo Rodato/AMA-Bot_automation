@@ -1,0 +1,110 @@
+name: Weekly Monitoring Report
+
+on:
+  schedule:
+    # Ejecutar los lunes a las 8:00 AM Colombia (1:00 PM UTC)
+    - cron: '0 13 * * 1'
+  
+  # Permitir ejecución manual
+  workflow_dispatch:
+    inputs:
+      include_detailed_report:
+        description: 'Generar reporte detallado por ubicaciones'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+        - 'true' 
+        - 'false'
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Set timezone to Peru
+      run: |
+        sudo timedatectl set-timezone America/Lima
+        echo "Current time in Peru:"
+        date
+        
+    - name: Generate comprehensive monitoring report
+      run: |
+        echo "📊 REPORTE SEMANAL - $(date +'%Y-%m-%d %H:%M')"
+        echo "================================================="
+        
+        # Verificar archivos existentes
+        echo "📁 Archivos disponibles:"
+        ls -la *.csv *.xlsx 2>/dev/null || echo "No hay archivos CSV/XLSX"
+        
+        if [ -f "control_envios.csv" ]; then
+          echo "✅ CSV de control encontrado"
+          
+          # Generar estadísticas rápidas
+          echo "📊 Estadísticas rápidas:"
+          python -c "
+import pandas as pd
+df = pd.read_csv('control_envios.csv')
+print(f'📋 Total registros: {len(df)}')
+print(f'👥 Usuarios únicos: {df[\"numero\"].nunique()}')
+print(f'📤 Enviados: {df[\"enviado\"].sum()}')
+print(f'✅ Completados: {df[\"completado\"].sum()}')
+if 'location' in df.columns:
+    print(f'🏫 Ubicaciones: {df[\"location\"].nunique()}')
+    print(f'📍 Location names: {df[\"location_name\"].nunique()}')
+"
+          
+          # Generar reporte detallado
+          if [ "${{ github.event.inputs.include_detailed_report }}" != "false" ]; then
+            echo "📈 Generando reporte detallado por ubicaciones..."
+            python monitor_ubicaciones.py
+          else
+            echo "⏭️ Reporte detallado omitido"
+          fi
+          
+        else
+          echo "❌ No se encontró control_envios.csv"
+          echo "🔍 Archivos disponibles:"
+          find . -name "*.csv" -o -name "*.xlsx" | head -10
+        fi
+        
+    - name: Commit weekly reports
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        
+        # Agregar archivos de reporte
+        git add reporte_ubicaciones_*.xlsx || true
+        
+        # Verificar si hay cambios
+        if git diff --staged --quiet; then
+          echo "📋 No hay reportes nuevos para commitear"
+        else
+          git commit -m "📊 Reporte semanal de monitoreo $(date +'%Y-%m-%d')"
+          git push
+          echo "✅ Reporte semanal commiteado y pusheado"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Summary
+      run: |
+        echo "📋 RESUMEN REPORTE SEMANAL"
+        echo "=========================="
+        echo "📅 Fecha: $(date +'%Y-%m-%d %H:%M')"
+        echo "🔄 Proceso completado"
+        echo "📊 Archivos de reporte disponibles:"
+        ls -la reporte_ubicaciones_*.xlsx 2>/dev/null || echo "No se generaron reportes Excel"
