@@ -1,571 +1,571 @@
 numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,completado,intentos_envio,fecha_completado,ultimo_estado_botpress,reenvios_consecutivos_fallidos,usuario_excluido
-51978942234,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51978942234,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51910523142,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51942227723,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51907815702,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51972271507,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51928958981,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51958921930,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51951965850,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51941401393,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51924834197,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51921658868,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51928300247,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51900727762,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51931855176,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51983003140,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51935699621,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51954946981,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51926307955,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,1,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,1,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,1,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,1,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,1,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,2,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,2,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,2,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,2,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,2,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,3,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,3,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,3,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,3,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,3,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,4,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,4,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,4,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,4,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,4,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,5,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,5,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,5,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,5,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,5,5,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,6,1,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,6,2,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,6,3,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,6,4,0,,,0,0,,0,0,0
-51984441545,Colegio,Maynas,5H,6,5,0,,,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:05,Status: 200 (Intento 1),0,1,,1,0,0
+51978942234,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51978942234,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:07,Status: 200 (Intento 1),0,1,,1,0,0
+51910523142,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51910523142,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:09,Status: 200 (Intento 1),0,1,,1,0,0
+51942227723,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51942227723,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:11,Status: 200 (Intento 1),0,1,,1,0,0
+51907815702,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51907815702,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:14,Status: 200 (Intento 1),0,1,,1,0,0
+51972271507,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51972271507,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:16,Status: 200 (Intento 1),0,1,,1,0,0
+51928958981,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928958981,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:18,Status: 200 (Intento 1),0,1,,1,0,0
+51958921930,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51958921930,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:21,Status: 200 (Intento 1),0,1,,1,0,0
+51951965850,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51951965850,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:23,Status: 200 (Intento 1),0,1,,1,0,0
+51941401393,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51941401393,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:25,Status: 200 (Intento 1),0,1,,1,0,0
+51924834197,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51924834197,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:27,Status: 200 (Intento 1),0,1,,1,0,0
+51921658868,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51921658868,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:30,Status: 200 (Intento 1),0,1,,1,0,0
+51928300247,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51928300247,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:32,Status: 200 (Intento 1),0,1,,1,0,0
+51900727762,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51900727762,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:34,Status: 200 (Intento 1),0,1,,1,0,0
+51931855176,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51931855176,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:36,Status: 200 (Intento 1),0,1,,1,0,0
+51983003140,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51983003140,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:39,Status: 200 (Intento 1),0,1,,1,0,0
+51935699621,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51935699621,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:41,Status: 200 (Intento 1),0,1,,1,0,0
+51954946981,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51954946981,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:43,Status: 200 (Intento 1),0,1,,1,0,0
+51926307955,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51926307955,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,1,1,1,2025-10-04 17:12:45,Status: 200 (Intento 1),0,1,,1,0,0
+51984441545,Colegio,Maynas,5H,1,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,1,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,1,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,1,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,2,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,2,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,2,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,2,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,2,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,3,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,3,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,3,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,3,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,3,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,4,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,4,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,4,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,4,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,4,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,5,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,5,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,5,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,5,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,5,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,6,1,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,6,2,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,6,3,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,6,4,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
+51984441545,Colegio,Maynas,5H,6,5,0,,Omitido: Usuario no en Botpress,0,0,,0,0,0
