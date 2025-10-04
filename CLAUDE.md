@@ -164,5 +164,27 @@ python3 agregar_numeros_nuevos.py --csv otro_control.csv --xlsx otros_numeros.xl
 **Última actualización**: 2025-09-25
 **Versión**: 2.0 (Con soporte de ubicaciones)
 
+## 🔑 PUNTOS CRÍTICOS PARA RECORDAR SIEMPRE
+
+### 📡 Sistema de Envíos
+- **Los envíos se ejecutan SOLO por GitHub Actions** - No por archivos locales
+- **Para que cambios estén en producción**: Deben estar subidos al repositorio remoto
+- **Horario**: Actions se ejecutan automáticamente a las 5:00 PM Colombia diariamente
+
+### 📊 Monitoreo de Envíos
+- **Para monitorear envíos**: Siempre revisar el `control_envios.csv` **REMOTO**, no local
+- **El CSV remoto es el que se actualiza** con respuestas y progreso real
+- **El CSV local puede estar desactualizado** respecto al progreso real
+
+### ➕ Proceso para Agregar Nuevos Usuarios (SIN PERDER PROGRESO)
+1. **Obtener el CSV `control_envios.csv` remoto** (con progreso actual de usuarios existentes)
+2. **Actualizar CSV local** añadiendo números nuevos MANTENIENDO el progreso de usuarios anteriores
+3. **Subir CSV actualizado al remoto** sin perder información anterior
+
+### 🎯 Objetivo Principal
+- **Agregar nuevos usuarios** que empiecen en sesión 1, día 1
+- **Mantener progreso** de usuarios existentes
+- **Proceso incremental**: Ir sumando usuarios sin resetear el sistema
+
 ## Memorias Personales
 - to memorize
