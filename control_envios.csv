@@ -600,8 +600,8 @@ numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,com
 51917347354,Barrio ,Las Brisas,,6,4,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51917347354,Barrio ,Las Brisas,,6,5,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51982194481,Barrio ,Las Brisas,,1,1,1,2025-10-16 17:11:33,Status: 200 (Intento 1),1,1,2025-10-17 17:13:24,2,0,0
-51982194481,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:12:46,Status: 200 (Intento 2),0,2,,1,1,0
-51982194481,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (1),0,0,,0,0,0
+51982194481,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:12:46,Status: 200 (Intento 2),1,2,2025-10-19 17:12:48,2,0,0
+51982194481,Barrio ,Las Brisas,,1,3,1,2025-10-19 17:12:48,Status: 200 (Intento 1),0,1,,1,0,0
 51982194481,Barrio ,Las Brisas,,1,4,0,,Omitido: Día 3 no completado (0),0,0,,0,0,0
 51982194481,Barrio ,Las Brisas,,1,5,0,,Omitido: Día 4 no completado (0),0,0,,0,0,0
 51982194481,Barrio ,Las Brisas,,2,1,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
@@ -780,8 +780,8 @@ numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,com
 51967826827,Barrio ,Las Brisas,,6,4,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51967826827,Barrio ,Las Brisas,,6,5,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51918454306,Barrio ,Las Brisas,,1,1,1,2025-10-17 17:13:42,Status: 200 (Intento 2),1,2,2025-10-18 17:12:46,2,0,0
-51918454306,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:12:48,Status: 200 (Intento 1),0,1,,1,0,0
-51918454306,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (0),0,0,,0,0,0
+51918454306,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:12:48,Status: 200 (Intento 1),1,1,2025-10-19 17:12:48,2,0,0
+51918454306,Barrio ,Las Brisas,,1,3,1,2025-10-19 17:12:51,Status: 200 (Intento 1),0,1,,1,0,0
 51918454306,Barrio ,Las Brisas,,1,4,0,,Omitido: Día 3 no completado (0),0,0,,0,0,0
 51918454306,Barrio ,Las Brisas,,1,5,0,,Omitido: Día 4 no completado (0),0,0,,0,0,0
 51918454306,Barrio ,Las Brisas,,2,1,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
@@ -1351,8 +1351,8 @@ numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,com
 51975128701,Barrio ,Las Brisas,,6,5,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51934524456,Barrio ,Las Brisas,,1,1,1,2025-10-16 17:12:28,Status: 200 (Intento 1),1,1,2025-10-17 17:13:24,2,0,0
 51934524456,Barrio ,Las Brisas,,1,2,1,2025-10-17 17:14:27,Status: 200 (Intento 1),1,1,2025-10-18 17:12:46,2,0,0
-51934524456,Barrio ,Las Brisas,,1,3,1,2025-10-18 17:12:55,Status: 200 (Intento 1),0,1,,1,0,0
-51934524456,Barrio ,Las Brisas,,1,4,0,,Omitido: Día 3 no completado (0),0,0,,0,0,0
+51934524456,Barrio ,Las Brisas,,1,3,1,2025-10-18 17:12:55,Status: 200 (Intento 1),1,1,2025-10-19 17:12:48,2,0,0
+51934524456,Barrio ,Las Brisas,,1,4,1,2025-10-19 17:12:54,Status: 200 (Intento 1),0,1,,1,0,0
 51934524456,Barrio ,Las Brisas,,1,5,0,,Omitido: Día 4 no completado (0),0,0,,0,0,0
 51934524456,Barrio ,Las Brisas,,2,1,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51934524456,Barrio ,Las Brisas,,2,2,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
@@ -1410,8 +1410,8 @@ numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,com
 51997497876,Barrio ,Las Brisas,,6,4,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51997497876,Barrio ,Las Brisas,,6,5,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51901962919,Barrio ,Las Brisas,,1,1,1,2025-10-17 17:14:32,Status: 200 (Intento 2),1,2,2025-10-18 17:12:46,2,0,0
-51901962919,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:12:58,Status: 200 (Intento 1),0,1,,1,0,0
-51901962919,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (0),0,0,,0,0,0
+51901962919,Barrio ,Las Brisas,,1,2,1,2025-10-19 17:12:56,Status: 200 (Intento 2),0,2,,1,1,0
+51901962919,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (1),0,0,,0,0,0
 51901962919,Barrio ,Las Brisas,,1,4,0,,Omitido: Día 3 no completado (0),0,0,,0,0,0
 51901962919,Barrio ,Las Brisas,,1,5,0,,Omitido: Día 4 no completado (0),0,0,,0,0,0
 51901962919,Barrio ,Las Brisas,,2,1,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
@@ -1440,8 +1440,8 @@ numero,location,location_name,salon,sesion,day,enviado,fecha_envio,resultado,com
 51901962919,Barrio ,Las Brisas,,6,4,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51901962919,Barrio ,Las Brisas,,6,5,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
 51930786669,Barrio ,Las Brisas,,1,1,1,2025-10-17 17:14:34,Status: 200 (Intento 2),1,2,2025-10-18 17:12:46,2,0,0
-51930786669,Barrio ,Las Brisas,,1,2,1,2025-10-18 17:13:00,Status: 200 (Intento 1),0,1,,1,0,0
-51930786669,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (0),0,0,,0,0,0
+51930786669,Barrio ,Las Brisas,,1,2,1,2025-10-19 17:12:59,Status: 200 (Intento 2),0,2,,1,1,0
+51930786669,Barrio ,Las Brisas,,1,3,0,,Omitido: Día 2 no completado (1),0,0,,0,0,0
 51930786669,Barrio ,Las Brisas,,1,4,0,,Omitido: Día 3 no completado (0),0,0,,0,0,0
 51930786669,Barrio ,Las Brisas,,1,5,0,,Omitido: Día 4 no completado (0),0,0,,0,0,0
 51930786669,Barrio ,Las Brisas,,2,1,0,,Omitido: Sesiones >1 pendientes,0,0,,0,0,0
