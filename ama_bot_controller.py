@@ -10,6 +10,12 @@ class AMABotController:
     def __init__(self, csv_file='control_envios.csv'):
         self.csv_file = csv_file
         
+        # Límites de sesiones por tipo de location
+        self.MAX_SESSIONS = {
+            'Barrio': 6,
+            'Colegio': 9
+        }
+        
         # Configuración para webhook (envíos)
         self.webhook_url = "https://webhook.botpress.cloud/2d63c736-0910-47a8-b06a-c82c12372106"
         self.webhook_headers = {
@@ -147,6 +153,13 @@ class AMABotController:
     def can_send_message(self, numero, sesion, day, csv_row):
         """Verificar si se puede enviar mensaje basado en reglas de negocio"""
         
+        # Verificar límite de sesiones por location
+        location = csv_row.get('location', 'Barrio')
+        max_sessions = self.MAX_SESSIONS.get(location, 6)
+        
+        if sesion > max_sessions:
+            return False, f"Sesión {sesion} excede límite para {location} (máx: {max_sessions})"
+        
         # Verificar límite de intentos (máximo 2)
         if csv_row['intentos_envio'] >= 2:
             return False, f"Máximo intentos alcanzado ({csv_row['intentos_envio']}/2)"
@@ -165,22 +178,36 @@ class AMABotController:
             return False, "Usuario no encontrado en Botpress"
         
         botpress_row = self.botpress_data[numero_str]
-        session1_data = botpress_row.get('session1', {})
         
-        if not isinstance(session1_data, dict):
-            return False, "Datos de sesión inválidos"
-        
-        # Para días posteriores en sesión 1
-        if sesion == 1 and day > 1:
-            prev_day_status = str(session1_data.get(str(day - 1), '0'))
+        # Para días posteriores en la misma sesión (D2, D3, D4, D5)
+        if day > 1:
+            session_key = f'session{sesion}'
+            session_data = botpress_row.get(session_key, {})
+            
+            if not isinstance(session_data, dict):
+                return False, "Datos de sesión inválidos"
+            
+            prev_day_status = str(session_data.get(str(day - 1), '0'))
             if prev_day_status == '2':  # Día anterior completado
-                return True, f"Día anterior completado (día {day-1})"
+                return True, f"Día anterior completado (S{sesion}D{day-1})"
             else:
-                return False, f"Día anterior no completado (día {day-1}: {prev_day_status})"
+                return False, f"Día anterior no completado (S{sesion}D{day-1}: {prev_day_status})"
         
-        # Para sesiones posteriores (implementar cuando se necesite)
-        if sesion > 1:
-            return False, "Sesiones > 1 no implementadas aún"
+        # Para día 1 de sesiones posteriores (S2D1, S3D1, etc.)
+        if sesion > 1 and day == 1:
+            # Verificar que día 5 de la sesión anterior esté completado
+            prev_session_key = f'session{sesion-1}'
+            prev_session_data = botpress_row.get(prev_session_key, {})
+            
+            if not isinstance(prev_session_data, dict):
+                return False, f"Datos de sesión anterior inválidos (S{sesion-1})"
+            
+            # CLAVE: Verificar específicamente que día 5 de sesión anterior esté completado
+            day5_status = str(prev_session_data.get('5', '0'))
+            if day5_status == '2':
+                return True, f"S{sesion-1}D5 completado - permite S{sesion}D1"
+            else:
+                return False, f"S{sesion-1}D5 no completado (estado: {day5_status}) - no permite S{sesion}D1"
         
         return True, "Condiciones cumplidas"
     
@@ -332,13 +359,21 @@ class AMABotController:
         
         # Por sesión
         print(f"\\n📋 ESTADÍSTICAS POR SESIÓN:")
-        for sesion in range(1, 7):
+        max_session_found = self.df['sesion'].max() if len(self.df) > 0 else 1
+        
+        for sesion in range(1, min(max_session_found + 1, 10)):  # Hasta sesión 9 máximo
             sesion_df = self.df[self.df['sesion'] == sesion]
             if len(sesion_df) > 0:
                 enviados_sesion = len(sesion_df[sesion_df['enviado'] == 1])
                 completados_sesion = len(sesion_df[sesion_df['completado'] == 1])
                 total_sesion = len(sesion_df)
-                print(f"   Sesión {sesion}: {enviados_sesion}/{total_sesion} enviados, {completados_sesion} completados")
+                
+                # Mostrar distribución por location en esta sesión
+                barrio_count = len(sesion_df[sesion_df['location'] == 'Barrio']) if 'location' in sesion_df.columns else 0
+                colegio_count = len(sesion_df[sesion_df['location'] == 'Colegio']) if 'location' in sesion_df.columns else 0
+                
+                location_info = f" (Barrio: {barrio_count}, Colegio: {colegio_count})" if barrio_count + colegio_count > 0 else ""
+                print(f"   Sesión {sesion}: {enviados_sesion}/{total_sesion} enviados, {completados_sesion} completados{location_info}")
     
     def mostrar_estadisticas_por_ubicacion(self):
         """Mostrar estadísticas detalladas por ubicación"""
@@ -411,9 +446,12 @@ if __name__ == "__main__":
         
         elif opcion == "3":
             try:
-                sesion = int(input("Sesión (1-6): "))
+                sesion = int(input("Sesión (1-9): "))
                 day = int(input("Día (1-5): "))
-                controller.procesar_envios(sesion_especifica=sesion, day_especifico=day)
+                if sesion < 1 or sesion > 9 or day < 1 or day > 5:
+                    print("❌ Sesión debe estar entre 1-9 y día entre 1-5")
+                else:
+                    controller.procesar_envios(sesion_especifica=sesion, day_especifico=day)
             except ValueError:
                 print("❌ Por favor ingresa números válidos")
         
