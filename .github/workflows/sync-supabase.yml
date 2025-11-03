@@ -1,0 +1,55 @@
+name: Sync Supabase Database
+
+on:
+  schedule:
+    # Ejecutar diariamente a las 11:59 PM UTC (5:59 PM Colombia)
+    - cron: '59 23 * * *'
+  workflow_dispatch:  # Permitir ejecución manual
+
+jobs:
+  sync-database:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas requests python-dotenv supabase
+        
+    - name: Create .env file with secrets
+      run: |
+        echo "SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env
+        echo "SUPABASE_KEY=${{ secrets.SUPABASE_KEY }}" >> .env
+        
+    - name: Run Supabase synchronization
+      run: |
+        echo "🔄 INICIANDO SINCRONIZACIÓN AUTOMÁTICA SUPABASE"
+        echo "================================================"
+        echo "🕒 Fecha: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "🌐 Descargando CSV remoto actualizado..."
+        
+        PYTHONPATH=$PWD python3 db/scripts/sync_csv_to_supabase.py
+        
+        echo "✅ Sincronización completada"
+        echo "📈 Dashboard actualizada para el día siguiente"
+        
+    - name: Notify completion
+      if: always()
+      run: |
+        if [ $? -eq 0 ]; then
+          echo "🎉 SINCRONIZACIÓN SUPABASE EXITOSA"
+          echo "📊 Base de datos actualizada con datos del día"
+          echo "🎯 Dashboard lista para visualización"
+        else
+          echo "❌ ERROR EN SINCRONIZACIÓN SUPABASE" 
+          echo "🚨 Revisar logs para solucionar problema"
+          exit 1
+        fi
