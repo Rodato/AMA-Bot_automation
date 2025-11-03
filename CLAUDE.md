@@ -187,4 +187,60 @@ python3 agregar_numeros_nuevos.py --csv otro_control.csv --xlsx otros_numeros.xl
 - **Proceso incremental**: Ir sumando usuarios sin resetear el sistema
 
 ## Memorias Personales
-- to memorize
+
+### 📤 **PROCESO ESTÁNDAR PARA AGREGAR NUEVOS NÚMEROS (ACTUALIZADO 2025-11-03)**
+
+#### 🎯 **Método Único Estandarizado**
+Este es el **ÚNICO proceso aprobado** para agregar nuevos números al sistema. Todas las formas anteriores quedan obsoletas.
+
+#### **Paso 1: 📥 Descargar CSV Remoto Actual**
+```bash
+python3 -c "
+import requests
+import pandas as pd
+import io
+
+github_url = 'https://raw.githubusercontent.com/Rodato/AMA-Bot_automation/main/control_envios.csv'
+response = requests.get(github_url, timeout=30)
+df = pd.read_csv(io.StringIO(response.text), dtype={'numero': str})
+df.to_csv('control_envios.csv', index=False)
+print(f'✅ CSV remoto descargado: {len(df)} registros')
+"
+```
+
+#### **Paso 2: ➕ Procesar Nuevos Números**
+```bash
+# Archivo fuente: BotNumbers_Production.xlsx (o el nombre que corresponda)
+echo "s" | python3 agregar_numeros_nuevos.py --xlsx BotNumbers_Production.xlsx
+```
+
+#### **Paso 3: 📤 Subir CSV Actualizado al Repositorio Remoto**
+```bash
+git add control_envios.csv
+git commit -m "➕ Agregar [X] nuevos usuarios al sistema AMA Bot"
+git stash           # Si hay cambios pendientes
+git pull --rebase origin main
+git push origin main
+```
+
+#### **✅ Características del Proceso Estándar:**
+- **Mantiene progreso existente** de usuarios anteriores
+- **Descarga CSV remoto actualizado** automáticamente
+- **Procesa sin confirmación manual** (`echo "s"`)
+- **Manejo robusto de conflictos** git (stash + rebase)
+- **Backup automático** antes de modificar
+- **Sincronización completa** con repositorio remoto
+
+#### **🚫 Procesos Obsoletos (NO USAR):**
+- ❌ Regenerar CSV completo con `csvNumbersGenerator.py`
+- ❌ Procesos manuales sin descarga remota
+- ❌ Cualquier método que no mantenga progreso existente
+- ❌ Sincronización manual sin git stash/rebase
+
+#### **📊 Flujo Completo:**
+```
+XLSX actualizado → Descargar CSV remoto → Procesar nuevos números → 
+Subir al repositorio → GitHub Actions (5:00 PM) → Envíos automáticos
+```
+
+**REGLA**: Este es el único proceso autorizado para mantener consistencia y evitar pérdida de datos.
