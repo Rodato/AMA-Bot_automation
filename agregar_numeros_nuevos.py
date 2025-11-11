@@ -121,26 +121,6 @@ class AgregarNumerosNuevos:
         
         return pd.DataFrame(registros_nuevos)
     
-    def actualizar_datos_existentes(self, numeros_existentes):
-        """Actualizar datos de ubicación para números existentes (mantener progreso)"""
-        if len(self.df_actual) == 0:
-            return pd.DataFrame()
-            
-        print(f"\n🔄 Actualizando datos de ubicación para números existentes...")
-        
-        for numero in numeros_existentes:
-            # Obtener nuevos datos de ubicación del XLSX
-            usuario_data = self.df_nuevos_usuarios[self.df_nuevos_usuarios['numero'] == numero].iloc[0]
-            
-            # Actualizar en df_actual
-            mask = self.df_actual['numero'] == numero
-            self.df_actual.loc[mask, 'location'] = usuario_data['location']
-            self.df_actual.loc[mask, 'location_name'] = usuario_data['location_name']
-            self.df_actual.loc[mask, 'salon'] = usuario_data['salon']
-            
-            print(f"   ✅ {numero}: {usuario_data['location']} - {usuario_data['location_name']}, {usuario_data['salon']}")
-        
-        return self.df_actual
     
     def procesar_actualizacion(self):
         """Proceso principal de actualización"""
@@ -154,9 +134,12 @@ class AgregarNumerosNuevos:
         # Identificar cambios
         numeros_nuevos, numeros_existentes = self.identificar_numeros_nuevos()
         
-        if len(numeros_nuevos) == 0 and len(numeros_existentes) == len(self.df_actual['numero'].unique() if len(self.df_actual) > 0 else []):
-            print("\n✅ No hay cambios que aplicar")
-            return False
+        if len(numeros_nuevos) == 0:
+            print("\n✅ No hay números nuevos que agregar")
+            if len(numeros_existentes) > 0:
+                print("   Actualizando datos de ubicación para números existentes...")
+            else:
+                return False
         
         # Confirmar con usuario
         if numeros_nuevos:
@@ -172,13 +155,23 @@ class AgregarNumerosNuevos:
         # Procesar cambios
         df_final = pd.DataFrame()
         
-        # 1. Mantener registros existentes con datos actualizados
-        if len(numeros_existentes) > 0:
-            df_existentes = self.actualizar_datos_existentes(numeros_existentes)
-            if len(df_existentes) > 0:
-                df_final = pd.concat([df_final, df_existentes], ignore_index=True)
+        # 1. MANTENER TODOS LOS USUARIOS EXISTENTES (con progreso)
+        if len(self.df_actual) > 0:
+            print(f"\n🔄 Manteniendo TODOS los {self.df_actual['numero'].nunique()} usuarios existentes...")
+            df_final = self.df_actual.copy()
+            
+            # Actualizar datos de ubicación solo para usuarios que también están en el XLSX
+            if len(numeros_existentes) > 0:
+                print(f"   📝 Actualizando ubicación de {len(numeros_existentes)} usuarios existentes que están en el XLSX...")
+                for numero in numeros_existentes:
+                    usuario_data = self.df_nuevos_usuarios[self.df_nuevos_usuarios['numero'] == numero].iloc[0]
+                    mask = df_final['numero'] == numero
+                    df_final.loc[mask, 'location'] = usuario_data['location']
+                    df_final.loc[mask, 'location_name'] = usuario_data['location_name']
+                    df_final.loc[mask, 'salon'] = usuario_data['salon']
+                    print(f"     ✅ {numero}: {usuario_data['location']} - {usuario_data['location_name']}, {usuario_data['salon']}")
         
-        # 2. Agregar números nuevos
+        # 2. AGREGAR números nuevos
         if numeros_nuevos:
             print(f"\n🆕 Generando registros para {len(numeros_nuevos)} números nuevos...")
             df_nuevos = self.generar_registros_nuevos(numeros_nuevos)
