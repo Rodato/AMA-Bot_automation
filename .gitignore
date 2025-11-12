@@ -28,3 +28,13 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Excel files and reports (generated locally, not needed in repo)
+*.xlsx
+*.xls
+reporte_ubicaciones_*.xlsx
+reporte_*.xlsx
+
+# Backup files
+*.backup_*
+control_envios.csv.backup_*
