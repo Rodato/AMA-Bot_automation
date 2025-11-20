@@ -38,3 +38,8 @@ reporte_*.xlsx
 # Backup files
 *.backup_*
 control_envios.csv.backup_*
+
+# CSV files with phone numbers (security)
+control_envios.csv
+botNumbers.csv
+BotNumbers_Production.csv
